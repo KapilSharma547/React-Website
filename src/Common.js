@@ -1,5 +1,5 @@
 import React from 'react';
-import web from '../src/images/img2.svg';
+//import web from '../src/images/img2.svg';
 import { NavLink } from 'react-router-dom'
 
 const Common = (props) => {
@@ -12,14 +12,13 @@ const Common = (props) => {
                             <div className='col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column '>
                                 <h1>
                                     {props.name}
-                                   
                                     <strong className='brand-name'> React Website.</strong>
                                 </h1>
                                 <h2 className='my-3 '>
                                     We are team of talented web developer.
                                 </h2>
                                 <div className='mt-3'>
-                                    <NavLink to={props.visit} className='btn-get-started' > {props.btnname}  </NavLink>
+                                    <NavLink to={props.visit} className='btn-get-started'> {props.btnname}  </NavLink>
                                 </div>
                             </div>
                             <div className='col-lg-6 order-1 order-lg-2 header-img'>
